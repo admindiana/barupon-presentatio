@@ -1,4 +1,12 @@
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import BaRupOnProfile from "./BaRupOnProfile";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <BaRupOnProfile />
+  </React.StrictMode>
+);
